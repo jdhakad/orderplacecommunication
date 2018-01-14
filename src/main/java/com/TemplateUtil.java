@@ -44,7 +44,7 @@ public class TemplateUtil {
                 });
         Optional.ofNullable(orderBO.getId())
                 .ifPresent(orderId -> params.put("orderId", String.valueOf(orderId)));
-        params.put("companyName", "Tangy Street");
+        params.put("companyName", "Meesho");
 
         return params;
     }

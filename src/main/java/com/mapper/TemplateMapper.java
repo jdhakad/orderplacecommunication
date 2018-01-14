@@ -50,13 +50,13 @@ public class TemplateMapper {
             "</html>";
 
 
-    private String EMAIL_BODY_WITHOUT_INVOICE = "Hello dhdakad,<br/><br/>" +
+    private String EMAIL_BODY_WITHOUT_INVOICE = "Hello ddhakad,<br/><br/>" +
             "&nbsp;&nbsp;&nbsp;&nbsp; We would like to inform you that your order #23424 is  placed on Tangy Street. You will receive your order shortly.<br/><br/>\n" +
             "" +
             "We will send invoice soon.<br/><br/>" +
             "" +
             "Thank you for ordering.<br/>" +
-            "Tangy Street" +
+            "Meesho" +
             "</html>";
 
     public List<Template> getTemplates(Map<String, Object> ctx) {
